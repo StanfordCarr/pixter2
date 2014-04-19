@@ -1,0 +1,11 @@
+<div class="private-square span4 offset4 text-center">
+  <h1> Upload Your Photo </h1>
+  <%= simple_form_for @post do |f| %>
+  <%= f.input :title, label: 'Contact',  placeholder: 'user@domain.com' %>
+  <%= f.input :description, label: 'What doin?' %>
+  <br/>
+  <%= f.button :submit, :class => 'btn btn-success' %>
+  <% end %> 
+</div>
+
+
